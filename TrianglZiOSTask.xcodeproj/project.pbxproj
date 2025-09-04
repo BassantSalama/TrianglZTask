@@ -12,7 +12,11 @@
 		04122E152E69FD6B005788F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04122E142E69FD6B005788F2 /* Assets.xcassets */; };
 		04122E182E69FD6B005788F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04122E172E69FD6B005788F2 /* Preview Assets.xcassets */; };
 		04122E252E6A0070005788F2 /* TrianglZiOSTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E242E6A0070005788F2 /* TrianglZiOSTaskTests.swift */; };
+
+		04122E3A2E6A0802005788F2 /* RemotePostsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E392E6A0802005788F2 /* RemotePostsAPI.swift */; };
+
 		04122E382E6A0606005788F2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E372E6A0606005788F2 /* Post.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +37,11 @@
 		04122E172E69FD6B005788F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04122E222E6A0070005788F2 /* TrianglZiOSTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrianglZiOSTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04122E242E6A0070005788F2 /* TrianglZiOSTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglZiOSTaskTests.swift; sourceTree = "<group>"; };
+
+		04122E392E6A0802005788F2 /* RemotePostsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePostsAPI.swift; sourceTree = "<group>"; };
+
 		04122E372E6A0606005788F2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				04122E352E6A03FE005788F2 /* Repositories Implementations */,
+				04122E392E6A0802005788F2 /* RemotePostsAPI.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -299,6 +308,7 @@
 				04122E382E6A0606005788F2 /* Post.swift in Sources */,
 				04122E132E69FD69005788F2 /* ContentView.swift in Sources */,
 				04122E112E69FD69005788F2 /* TrianglZiOSTaskApp.swift in Sources */,
+				04122E3A2E6A0802005788F2 /* RemotePostsAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
