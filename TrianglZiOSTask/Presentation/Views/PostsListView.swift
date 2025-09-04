@@ -25,7 +25,7 @@ struct PostsListView: View {
                 }
             } else {
                 List(viewModel.posts) { post in
-                    NavigationLink(destination: Text("Post details coming soon")) {
+                    NavigationLink(destination: PostDetailsView(post: post)) {
                         Text(post.title ?? "No Title")
                     }
                 }
