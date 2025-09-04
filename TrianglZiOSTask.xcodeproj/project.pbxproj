@@ -24,6 +24,7 @@
 		04122E4F2E6A1A63005788F2 /* LoadPostsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E4E2E6A1A63005788F2 /* LoadPostsUseCase.swift */; };
 		04122E512E6A1CDB005788F2 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E502E6A1CDB005788F2 /* PostsViewModel.swift */; };
 		04122E532E6A1E26005788F2 /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E522E6A1E26005788F2 /* PostsListView.swift */; };
+		04122E552E6A26C8005788F2 /* PostDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E542E6A26C8005788F2 /* PostDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		04122E4E2E6A1A63005788F2 /* LoadPostsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPostsUseCase.swift; sourceTree = "<group>"; };
 		04122E502E6A1CDB005788F2 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
 		04122E522E6A1E26005788F2 /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
+		04122E542E6A26C8005788F2 /* PostDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				04122E102E69FD69005788F2 /* TrianglZiOSTaskApp.swift */,
 				04122E122E69FD69005788F2 /* ContentView.swift */,
 				04122E522E6A1E26005788F2 /* PostsListView.swift */,
+				04122E542E6A26C8005788F2 /* PostDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				04122E3D2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld in Sources */,
 				04122E3A2E6A0802005788F2 /* RemotePostsAPI.swift in Sources */,
 				04122E472E6A1475005788F2 /* PostMapper.swift in Sources */,
+				04122E552E6A26C8005788F2 /* PostDetailsView.swift in Sources */,
 				04122E452E6A1448005788F2 /* LocalPostsCache.swift in Sources */,
 				04122E4F2E6A1A63005788F2 /* LoadPostsUseCase.swift in Sources */,
 			);
