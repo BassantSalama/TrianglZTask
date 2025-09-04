@@ -11,7 +11,18 @@
 		04122E132E69FD69005788F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E122E69FD69005788F2 /* ContentView.swift */; };
 		04122E152E69FD6B005788F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04122E142E69FD6B005788F2 /* Assets.xcassets */; };
 		04122E182E69FD6B005788F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04122E172E69FD6B005788F2 /* Preview Assets.xcassets */; };
+		04122E252E6A0070005788F2 /* TrianglZiOSTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E242E6A0070005788F2 /* TrianglZiOSTaskTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04122E262E6A0070005788F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04122E052E69FD68005788F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04122E0C2E69FD69005788F2;
+			remoteInfo = TrianglZiOSTask;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04122E0D2E69FD69005788F2 /* TrianglZiOSTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrianglZiOSTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +30,19 @@
 		04122E122E69FD69005788F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04122E142E69FD6B005788F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04122E172E69FD6B005788F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04122E222E6A0070005788F2 /* TrianglZiOSTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrianglZiOSTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04122E242E6A0070005788F2 /* TrianglZiOSTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglZiOSTaskTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		04122E0A2E69FD69005788F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04122E1F2E6A0070005788F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				04122E0F2E69FD69005788F2 /* TrianglZiOSTask */,
+				04122E232E6A0070005788F2 /* TrianglZiOSTaskTests */,
 				04122E0E2E69FD69005788F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				04122E0D2E69FD69005788F2 /* TrianglZiOSTask.app */,
+				04122E222E6A0070005788F2 /* TrianglZiOSTaskTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +73,10 @@
 		04122E0F2E69FD69005788F2 /* TrianglZiOSTask */ = {
 			isa = PBXGroup;
 			children = (
-				04122E102E69FD69005788F2 /* TrianglZiOSTaskApp.swift */,
-				04122E122E69FD69005788F2 /* ContentView.swift */,
-				04122E142E69FD6B005788F2 /* Assets.xcassets */,
+				04122E2D2E6A00AE005788F2 /* Domain */,
+				04122E2C2E6A00A2005788F2 /* Data */,
+				04122E2B2E6A0094005788F2 /* Presentation */,
+				04122E362E6A0412005788F2 /* Resources */,
 				04122E162E69FD6B005788F2 /* Preview Content */,
 			);
 			path = TrianglZiOSTask;
@@ -65,6 +88,109 @@
 				04122E172E69FD6B005788F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04122E232E6A0070005788F2 /* TrianglZiOSTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				04122E242E6A0070005788F2 /* TrianglZiOSTaskTests.swift */,
+			);
+			path = TrianglZiOSTaskTests;
+			sourceTree = "<group>";
+		};
+		04122E2B2E6A0094005788F2 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				04122E2F2E6A0164005788F2 /* ViewModels */,
+				04122E2E2E6A0151005788F2 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		04122E2C2E6A00A2005788F2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				04122E352E6A03FE005788F2 /* Repositories Implementations */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		04122E2D2E6A00AE005788F2 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				04122E322E6A038A005788F2 /* Protocols */,
+				04122E312E6A037C005788F2 /* UseCases */,
+				04122E302E6A035A005788F2 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		04122E2E2E6A0151005788F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04122E102E69FD69005788F2 /* TrianglZiOSTaskApp.swift */,
+				04122E122E69FD69005788F2 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04122E2F2E6A0164005788F2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04122E302E6A035A005788F2 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		04122E312E6A037C005788F2 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		04122E322E6A038A005788F2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				04122E342E6A03C6005788F2 /* UseCasesProtocols */,
+				04122E332E6A03B9005788F2 /* RepositoryProtocols */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		04122E332E6A03B9005788F2 /* RepositoryProtocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RepositoryProtocols;
+			sourceTree = "<group>";
+		};
+		04122E342E6A03C6005788F2 /* UseCasesProtocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCasesProtocols;
+			sourceTree = "<group>";
+		};
+		04122E352E6A03FE005788F2 /* Repositories Implementations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Repositories Implementations";
+			sourceTree = "<group>";
+		};
+		04122E362E6A0412005788F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04122E142E69FD6B005788F2 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +213,24 @@
 			productReference = 04122E0D2E69FD69005788F2 /* TrianglZiOSTask.app */;
 			productType = "com.apple.product-type.application";
 		};
+		04122E212E6A0070005788F2 /* TrianglZiOSTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04122E282E6A0070005788F2 /* Build configuration list for PBXNativeTarget "TrianglZiOSTaskTests" */;
+			buildPhases = (
+				04122E1E2E6A0070005788F2 /* Sources */,
+				04122E1F2E6A0070005788F2 /* Frameworks */,
+				04122E202E6A0070005788F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04122E272E6A0070005788F2 /* PBXTargetDependency */,
+			);
+			name = TrianglZiOSTaskTests;
+			productName = TrianglZiOSTaskTests;
+			productReference = 04122E222E6A0070005788F2 /* TrianglZiOSTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +243,10 @@
 				TargetAttributes = {
 					04122E0C2E69FD69005788F2 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					04122E212E6A0070005788F2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04122E0C2E69FD69005788F2;
 					};
 				};
 			};
@@ -116,6 +264,7 @@
 			projectRoot = "";
 			targets = (
 				04122E0C2E69FD69005788F2 /* TrianglZiOSTask */,
+				04122E212E6A0070005788F2 /* TrianglZiOSTaskTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +276,13 @@
 			files = (
 				04122E182E69FD6B005788F2 /* Preview Assets.xcassets in Resources */,
 				04122E152E69FD6B005788F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04122E202E6A0070005788F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +298,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04122E1E2E6A0070005788F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04122E252E6A0070005788F2 /* TrianglZiOSTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04122E272E6A0070005788F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04122E0C2E69FD69005788F2 /* TrianglZiOSTask */;
+			targetProxy = 04122E262E6A0070005788F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		04122E192E69FD6B005788F2 /* Debug */ = {
@@ -315,6 +487,40 @@
 			};
 			name = Release;
 		};
+		04122E292E6A0070005788F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basantsalama.TrianglZiOSTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrianglZiOSTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrianglZiOSTask";
+			};
+			name = Debug;
+		};
+		04122E2A2E6A0070005788F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basantsalama.TrianglZiOSTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrianglZiOSTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrianglZiOSTask";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -332,6 +538,15 @@
 			buildConfigurations = (
 				04122E1C2E69FD6B005788F2 /* Debug */,
 				04122E1D2E69FD6B005788F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04122E282E6A0070005788F2 /* Build configuration list for PBXNativeTarget "TrianglZiOSTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04122E292E6A0070005788F2 /* Debug */,
+				04122E2A2E6A0070005788F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
