@@ -12,11 +12,10 @@
 		04122E152E69FD6B005788F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04122E142E69FD6B005788F2 /* Assets.xcassets */; };
 		04122E182E69FD6B005788F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04122E172E69FD6B005788F2 /* Preview Assets.xcassets */; };
 		04122E252E6A0070005788F2 /* TrianglZiOSTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E242E6A0070005788F2 /* TrianglZiOSTaskTests.swift */; };
-
-		04122E3A2E6A0802005788F2 /* RemotePostsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E392E6A0802005788F2 /* RemotePostsAPI.swift */; };
-
 		04122E382E6A0606005788F2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E372E6A0606005788F2 /* Post.swift */; };
-
+		04122E3A2E6A0802005788F2 /* RemotePostsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E392E6A0802005788F2 /* RemotePostsAPI.swift */; };
+		04122E3D2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04122E3B2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld */; };
+		04122E432E6A0C4D005788F2 /* NSPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E422E6A0C4D005788F2 /* NSPersistentContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +36,10 @@
 		04122E172E69FD6B005788F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04122E222E6A0070005788F2 /* TrianglZiOSTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrianglZiOSTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04122E242E6A0070005788F2 /* TrianglZiOSTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglZiOSTaskTests.swift; sourceTree = "<group>"; };
-
-		04122E392E6A0802005788F2 /* RemotePostsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePostsAPI.swift; sourceTree = "<group>"; };
-
 		04122E372E6A0606005788F2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-
+		04122E392E6A0802005788F2 /* RemotePostsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePostsAPI.swift; sourceTree = "<group>"; };
+		04122E3C2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrianglZiOSTask.xcdatamodel; sourceTree = "<group>"; };
+		04122E422E6A0C4D005788F2 /* NSPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPersistentContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +63,8 @@
 		04122E042E69FD68005788F2 = {
 			isa = PBXGroup;
 			children = (
+				04122E3B2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld */,
+				04122E422E6A0C4D005788F2 /* NSPersistentContainer.swift */,
 				04122E0F2E69FD69005788F2 /* TrianglZiOSTask */,
 				04122E232E6A0070005788F2 /* TrianglZiOSTaskTests */,
 				04122E0E2E69FD69005788F2 /* Products */,
@@ -306,8 +306,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04122E382E6A0606005788F2 /* Post.swift in Sources */,
+				04122E432E6A0C4D005788F2 /* NSPersistentContainer.swift in Sources */,
 				04122E132E69FD69005788F2 /* ContentView.swift in Sources */,
 				04122E112E69FD69005788F2 /* TrianglZiOSTaskApp.swift in Sources */,
+				04122E3D2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld in Sources */,
 				04122E3A2E6A0802005788F2 /* RemotePostsAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,6 +568,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04122E3B2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04122E3C2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodel */,
+			);
+			currentVersion = 04122E3C2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodel */;
+			path = TrianglZiOSTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 04122E052E69FD68005788F2 /* Project object */;
 }
