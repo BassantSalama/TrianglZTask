@@ -16,6 +16,8 @@
 		04122E3A2E6A0802005788F2 /* RemotePostsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E392E6A0802005788F2 /* RemotePostsAPI.swift */; };
 		04122E3D2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04122E3B2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld */; };
 		04122E432E6A0C4D005788F2 /* NSPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E422E6A0C4D005788F2 /* NSPersistentContainer.swift */; };
+		04122E452E6A1448005788F2 /* LocalPostsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E442E6A1448005788F2 /* LocalPostsCache.swift */; };
+		04122E472E6A1475005788F2 /* PostMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E462E6A1475005788F2 /* PostMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		04122E392E6A0802005788F2 /* RemotePostsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePostsAPI.swift; sourceTree = "<group>"; };
 		04122E3C2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrianglZiOSTask.xcdatamodel; sourceTree = "<group>"; };
 		04122E422E6A0C4D005788F2 /* NSPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPersistentContainer.swift; sourceTree = "<group>"; };
+		04122E442E6A1448005788F2 /* LocalPostsCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPostsCache.swift; sourceTree = "<group>"; };
+		04122E462E6A1475005788F2 /* PostMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 			children = (
 				04122E352E6A03FE005788F2 /* Repositories Implementations */,
 				04122E392E6A0802005788F2 /* RemotePostsAPI.swift */,
+				04122E442E6A1448005788F2 /* LocalPostsCache.swift */,
+				04122E462E6A1475005788F2 /* PostMapper.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -311,6 +317,8 @@
 				04122E112E69FD69005788F2 /* TrianglZiOSTaskApp.swift in Sources */,
 				04122E3D2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld in Sources */,
 				04122E3A2E6A0802005788F2 /* RemotePostsAPI.swift in Sources */,
+				04122E472E6A1475005788F2 /* PostMapper.swift in Sources */,
+				04122E452E6A1448005788F2 /* LocalPostsCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
