@@ -29,6 +29,7 @@
 		0422E8FF2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E8FE2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift */; };
 		0422E9022E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E9012E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift */; };
 		0422E9052E6DECAA003E3A1E /* PostsViewModel_SuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E9042E6DECAA003E3A1E /* PostsViewModel_SuccessTests.swift */; };
+		0422E9072E6DEE9F003E3A1E /* PostsViewModel_OfflineCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E9062E6DEE9F003E3A1E /* PostsViewModel_OfflineCacheTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		0422E8FE2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoadPostsUseCase.swift; sourceTree = "<group>"; };
 		0422E9012E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPostsUseCaseTests.swift; sourceTree = "<group>"; };
 		0422E9042E6DECAA003E3A1E /* PostsViewModel_SuccessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel_SuccessTests.swift; sourceTree = "<group>"; };
+		0422E9062E6DEE9F003E3A1E /* PostsViewModel_OfflineCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel_OfflineCacheTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				0422E9042E6DECAA003E3A1E /* PostsViewModel_SuccessTests.swift */,
+				0422E9062E6DEE9F003E3A1E /* PostsViewModel_OfflineCacheTests.swift */,
 			);
 			path = ViewModelTests;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				04122E252E6A0070005788F2 /* TrianglZiOSTaskTests.swift in Sources */,
 				0422E8FD2E6DE865003E3A1E /* MockPostsRepository.swift in Sources */,
 				0422E9052E6DECAA003E3A1E /* PostsViewModel_SuccessTests.swift in Sources */,
+				0422E9072E6DEE9F003E3A1E /* PostsViewModel_OfflineCacheTests.swift in Sources */,
 				0422E8FF2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift in Sources */,
 				0422E9022E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift in Sources */,
 			);
