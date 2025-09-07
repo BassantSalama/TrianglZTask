@@ -27,6 +27,7 @@
 		04122E552E6A26C8005788F2 /* PostDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E542E6A26C8005788F2 /* PostDetailsView.swift */; };
 		0422E8FD2E6DE865003E3A1E /* MockPostsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E8FC2E6DE865003E3A1E /* MockPostsRepository.swift */; };
 		0422E8FF2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E8FE2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift */; };
+		0422E9022E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E9012E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		04122E542E6A26C8005788F2 /* PostDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsView.swift; sourceTree = "<group>"; };
 		0422E8FC2E6DE865003E3A1E /* MockPostsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPostsRepository.swift; sourceTree = "<group>"; };
 		0422E8FE2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoadPostsUseCase.swift; sourceTree = "<group>"; };
+		0422E9012E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPostsUseCaseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		04122E232E6A0070005788F2 /* TrianglZiOSTaskTests */ = {
 			isa = PBXGroup;
 			children = (
+				0422E9002E6DEA30003E3A1E /* UseCaseTests */,
 				0422E8FB2E6DE834003E3A1E /* Mocks */,
 				04122E242E6A0070005788F2 /* TrianglZiOSTaskTests.swift */,
 			);
@@ -244,6 +247,14 @@
 				0422E8FE2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		0422E9002E6DEA30003E3A1E /* UseCaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				0422E9012E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift */,
+			);
+			path = UseCaseTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,6 +382,7 @@
 				04122E252E6A0070005788F2 /* TrianglZiOSTaskTests.swift in Sources */,
 				0422E8FD2E6DE865003E3A1E /* MockPostsRepository.swift in Sources */,
 				0422E8FF2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift in Sources */,
+				0422E9022E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
