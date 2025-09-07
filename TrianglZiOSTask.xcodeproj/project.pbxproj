@@ -15,7 +15,24 @@
 		04122E382E6A0606005788F2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E372E6A0606005788F2 /* Post.swift */; };
 		04122E3A2E6A0802005788F2 /* RemotePostsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E392E6A0802005788F2 /* RemotePostsAPI.swift */; };
 		04122E3D2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04122E3B2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld */; };
+
 		04122E432E6A0C4D005788F2 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E422E6A0C4D005788F2 /* PersistenceController.swift */; };
+
+		04122E452E6A1448005788F2 /* LocalPostsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E442E6A1448005788F2 /* LocalPostsCache.swift */; };
+		04122E472E6A1475005788F2 /* PostMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E462E6A1475005788F2 /* PostMapper.swift */; };
+		04122E492E6A1607005788F2 /* PostsRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E482E6A1607005788F2 /* PostsRepositoryProtocol.swift */; };
+		04122E4B2E6A161D005788F2 /* PostsRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E4A2E6A161D005788F2 /* PostsRepositoryImpl.swift */; };
+		04122E4D2E6A1A30005788F2 /* LoadPostsUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E4C2E6A1A30005788F2 /* LoadPostsUseCaseProtocol.swift */; };
+		04122E4F2E6A1A63005788F2 /* LoadPostsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E4E2E6A1A63005788F2 /* LoadPostsUseCase.swift */; };
+		04122E512E6A1CDB005788F2 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E502E6A1CDB005788F2 /* PostsViewModel.swift */; };
+		04122E532E6A1E26005788F2 /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E522E6A1E26005788F2 /* PostsListView.swift */; };
+		04122E552E6A26C8005788F2 /* PostDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E542E6A26C8005788F2 /* PostDetailsView.swift */; };
+		0422E8FD2E6DE865003E3A1E /* MockPostsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E8FC2E6DE865003E3A1E /* MockPostsRepository.swift */; };
+		0422E8FF2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E8FE2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift */; };
+		0422E9022E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E9012E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift */; };
+		0422E9052E6DECAA003E3A1E /* PostsViewModel_SuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E9042E6DECAA003E3A1E /* PostsViewModel_SuccessTests.swift */; };
+		0422E9072E6DEE9F003E3A1E /* PostsViewModel_OfflineCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E9062E6DEE9F003E3A1E /* PostsViewModel_OfflineCacheTests.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +56,24 @@
 		04122E372E6A0606005788F2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		04122E392E6A0802005788F2 /* RemotePostsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePostsAPI.swift; sourceTree = "<group>"; };
 		04122E3C2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrianglZiOSTask.xcdatamodel; sourceTree = "<group>"; };
+
 		04122E422E6A0C4D005788F2 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+
+		04122E442E6A1448005788F2 /* LocalPostsCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPostsCache.swift; sourceTree = "<group>"; };
+		04122E462E6A1475005788F2 /* PostMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMapper.swift; sourceTree = "<group>"; };
+		04122E482E6A1607005788F2 /* PostsRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepositoryProtocol.swift; sourceTree = "<group>"; };
+		04122E4A2E6A161D005788F2 /* PostsRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepositoryImpl.swift; sourceTree = "<group>"; };
+		04122E4C2E6A1A30005788F2 /* LoadPostsUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPostsUseCaseProtocol.swift; sourceTree = "<group>"; };
+		04122E4E2E6A1A63005788F2 /* LoadPostsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPostsUseCase.swift; sourceTree = "<group>"; };
+		04122E502E6A1CDB005788F2 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		04122E522E6A1E26005788F2 /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
+		04122E542E6A26C8005788F2 /* PostDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsView.swift; sourceTree = "<group>"; };
+		0422E8FC2E6DE865003E3A1E /* MockPostsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPostsRepository.swift; sourceTree = "<group>"; };
+		0422E8FE2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoadPostsUseCase.swift; sourceTree = "<group>"; };
+		0422E9012E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPostsUseCaseTests.swift; sourceTree = "<group>"; };
+		0422E9042E6DECAA003E3A1E /* PostsViewModel_SuccessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel_SuccessTests.swift; sourceTree = "<group>"; };
+		0422E9062E6DEE9F003E3A1E /* PostsViewModel_OfflineCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel_OfflineCacheTests.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +137,9 @@
 		04122E232E6A0070005788F2 /* TrianglZiOSTaskTests */ = {
 			isa = PBXGroup;
 			children = (
+				0422E9032E6DEC8C003E3A1E /* ViewModelTests */,
+				0422E9002E6DEA30003E3A1E /* UseCaseTests */,
+				0422E8FB2E6DE834003E3A1E /* Mocks */,
 				04122E242E6A0070005788F2 /* TrianglZiOSTaskTests.swift */,
 			);
 			path = TrianglZiOSTaskTests;
@@ -122,6 +159,8 @@
 			children = (
 				04122E352E6A03FE005788F2 /* Repositories Implementations */,
 				04122E392E6A0802005788F2 /* RemotePostsAPI.swift */,
+				04122E442E6A1448005788F2 /* LocalPostsCache.swift */,
+				04122E462E6A1475005788F2 /* PostMapper.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -141,6 +180,8 @@
 			children = (
 				04122E102E69FD69005788F2 /* TrianglZiOSTaskApp.swift */,
 				04122E122E69FD69005788F2 /* ContentView.swift */,
+				04122E522E6A1E26005788F2 /* PostsListView.swift */,
+				04122E542E6A26C8005788F2 /* PostDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -148,6 +189,7 @@
 		04122E2F2E6A0164005788F2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				04122E502E6A1CDB005788F2 /* PostsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -163,6 +205,7 @@
 		04122E312E6A037C005788F2 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				04122E4E2E6A1A63005788F2 /* LoadPostsUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -179,6 +222,7 @@
 		04122E332E6A03B9005788F2 /* RepositoryProtocols */ = {
 			isa = PBXGroup;
 			children = (
+				04122E482E6A1607005788F2 /* PostsRepositoryProtocol.swift */,
 			);
 			path = RepositoryProtocols;
 			sourceTree = "<group>";
@@ -186,6 +230,7 @@
 		04122E342E6A03C6005788F2 /* UseCasesProtocols */ = {
 			isa = PBXGroup;
 			children = (
+				04122E4C2E6A1A30005788F2 /* LoadPostsUseCaseProtocol.swift */,
 			);
 			path = UseCasesProtocols;
 			sourceTree = "<group>";
@@ -193,6 +238,7 @@
 		04122E352E6A03FE005788F2 /* Repositories Implementations */ = {
 			isa = PBXGroup;
 			children = (
+				04122E4A2E6A161D005788F2 /* PostsRepositoryImpl.swift */,
 			);
 			path = "Repositories Implementations";
 			sourceTree = "<group>";
@@ -203,6 +249,32 @@
 				04122E142E69FD6B005788F2 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0422E8FB2E6DE834003E3A1E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				0422E8FC2E6DE865003E3A1E /* MockPostsRepository.swift */,
+				0422E8FE2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		0422E9002E6DEA30003E3A1E /* UseCaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				0422E9012E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift */,
+			);
+			path = UseCaseTests;
+			sourceTree = "<group>";
+		};
+		0422E9032E6DEC8C003E3A1E /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				0422E9042E6DECAA003E3A1E /* PostsViewModel_SuccessTests.swift */,
+				0422E9062E6DEE9F003E3A1E /* PostsViewModel_OfflineCacheTests.swift */,
+			);
+			path = ViewModelTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,12 +377,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04122E532E6A1E26005788F2 /* PostsListView.swift in Sources */,
 				04122E382E6A0606005788F2 /* Post.swift in Sources */,
+
 				04122E432E6A0C4D005788F2 /* PersistenceController.swift in Sources */,
+				04122E4D2E6A1A30005788F2 /* LoadPostsUseCaseProtocol.swift in Sources */,
+				04122E512E6A1CDB005788F2 /* PostsViewModel.swift in Sources */,
+	
 				04122E132E69FD69005788F2 /* ContentView.swift in Sources */,
+				04122E4B2E6A161D005788F2 /* PostsRepositoryImpl.swift in Sources */,
 				04122E112E69FD69005788F2 /* TrianglZiOSTaskApp.swift in Sources */,
+				04122E492E6A1607005788F2 /* PostsRepositoryProtocol.swift in Sources */,
 				04122E3D2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld in Sources */,
 				04122E3A2E6A0802005788F2 /* RemotePostsAPI.swift in Sources */,
+				04122E472E6A1475005788F2 /* PostMapper.swift in Sources */,
+				04122E552E6A26C8005788F2 /* PostDetailsView.swift in Sources */,
+				04122E452E6A1448005788F2 /* LocalPostsCache.swift in Sources */,
+				04122E4F2E6A1A63005788F2 /* LoadPostsUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +402,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04122E252E6A0070005788F2 /* TrianglZiOSTaskTests.swift in Sources */,
+				0422E8FD2E6DE865003E3A1E /* MockPostsRepository.swift in Sources */,
+				0422E9052E6DECAA003E3A1E /* PostsViewModel_SuccessTests.swift in Sources */,
+				0422E9072E6DEE9F003E3A1E /* PostsViewModel_OfflineCacheTests.swift in Sources */,
+				0422E8FF2E6DE87F003E3A1E /* MockLoadPostsUseCase.swift in Sources */,
+				0422E9022E6DEA5E003E3A1E /* LoadPostsUseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
