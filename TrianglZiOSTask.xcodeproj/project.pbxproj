@@ -15,7 +15,7 @@
 		04122E382E6A0606005788F2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E372E6A0606005788F2 /* Post.swift */; };
 		04122E3A2E6A0802005788F2 /* RemotePostsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E392E6A0802005788F2 /* RemotePostsAPI.swift */; };
 		04122E3D2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04122E3B2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld */; };
-		04122E432E6A0C4D005788F2 /* NSPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E422E6A0C4D005788F2 /* NSPersistentContainer.swift */; };
+		04122E432E6A0C4D005788F2 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04122E422E6A0C4D005788F2 /* PersistenceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		04122E372E6A0606005788F2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		04122E392E6A0802005788F2 /* RemotePostsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePostsAPI.swift; sourceTree = "<group>"; };
 		04122E3C2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrianglZiOSTask.xcdatamodel; sourceTree = "<group>"; };
-		04122E422E6A0C4D005788F2 /* NSPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPersistentContainer.swift; sourceTree = "<group>"; };
+		04122E422E6A0C4D005788F2 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				04122E3B2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld */,
-				04122E422E6A0C4D005788F2 /* NSPersistentContainer.swift */,
+				04122E422E6A0C4D005788F2 /* PersistenceController.swift */,
 				04122E0F2E69FD69005788F2 /* TrianglZiOSTask */,
 				04122E232E6A0070005788F2 /* TrianglZiOSTaskTests */,
 				04122E0E2E69FD69005788F2 /* Products */,
@@ -306,7 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04122E382E6A0606005788F2 /* Post.swift in Sources */,
-				04122E432E6A0C4D005788F2 /* NSPersistentContainer.swift in Sources */,
+				04122E432E6A0C4D005788F2 /* PersistenceController.swift in Sources */,
 				04122E132E69FD69005788F2 /* ContentView.swift in Sources */,
 				04122E112E69FD69005788F2 /* TrianglZiOSTaskApp.swift in Sources */,
 				04122E3D2E6A0B12005788F2 /* TrianglZiOSTask.xcdatamodeld in Sources */,
