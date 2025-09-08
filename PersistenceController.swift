@@ -16,16 +16,19 @@ struct PersistenceController {
         container = NSPersistentContainer(name: "TrianglZiOSTask")
         
         if inMemory {
+            // Use in-memory store for testing purposes
             container.persistentStoreDescriptions.first?.url = URL(fileURLWithPath: "/dev/null")
         }
-        
-        container.loadPersistentStores { _, error in
+
+        container.loadPersistentStores { description, error in
             if let error = error as NSError? {
-                fatalError("Unresolved error \(error), \(error.userInfo)")
+                print("❌ Failed to load persistent store: \(error), \(error.userInfo)")
+            } else {
+                print("✅ Persistent store loaded at: \(description.url?.absoluteString ?? "Unknown URL")")
             }
         }
+        
         
         container.viewContext.automaticallyMergesChangesFromParent = true
     }
 }
-
