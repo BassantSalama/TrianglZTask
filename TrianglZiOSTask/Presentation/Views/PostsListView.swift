@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PostsListView: View {
     @ObservedObject var viewModel: PostsViewModel
-
+    
     var body: some View {
         VStack {
             if viewModel.isLoading {
@@ -24,23 +24,21 @@ struct PostsListView: View {
                     .padding()
                 }
             } else {
-Group {
-    if viewModel.filteredPosts.isEmpty {
-        Text("No results found for \"\(viewModel.searchText)\"")
-            .foregroundColor(.gray)
-            .padding()
-    } else {
-        List(viewModel.filteredPosts) { post in
-            NavigationLink(destination: PostDetailsView(post: post)) {
-                Text(post.title ?? "No Title")
-            }
-        }
-    }
-}
-.searchable(text: $viewModel.searchText)
-
+                Group {
+                    if viewModel.filteredPosts.isEmpty {
+                        Text("No results found for \"\(viewModel.searchText)\"")
+                            .foregroundColor(.gray)
+                            .padding()
+                    } else {
+                        List(viewModel.filteredPosts) { post in
+                            NavigationLink(destination: PostDetailsView(post: post)) {
+                                Text(post.title ?? "No Title")
+                            }
+                        }
                     }
                 }
+                
+                
                 .searchable(text: $viewModel.searchText)
                 .textInputAutocapitalization(.never)
             }
