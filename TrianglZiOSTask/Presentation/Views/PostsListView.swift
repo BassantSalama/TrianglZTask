@@ -24,15 +24,27 @@ struct PostsListView: View {
                     .padding()
                 }
             } else {
-                List(viewModel.posts) { post in
-                    NavigationLink(destination: PostDetailsView(post: post)) {
-                        Text(post.title ?? "No Title")
+Group {
+    if viewModel.filteredPosts.isEmpty {
+        Text("No results found for \"\(viewModel.searchText)\"")
+            .foregroundColor(.gray)
+            .padding()
+    } else {
+        List(viewModel.filteredPosts) { post in
+            NavigationLink(destination: PostDetailsView(post: post)) {
+                Text(post.title ?? "No Title")
+            }
+        }
+    }
+}
+.searchable(text: $viewModel.searchText)
+
                     }
                 }
                 .searchable(text: $viewModel.searchText)
+                .textInputAutocapitalization(.never)
             }
         }
         .navigationTitle("Posts")
     }
 }
-
